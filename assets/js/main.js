@@ -2,13 +2,13 @@ const social = [
   {
     id: 'phone',
     name: 'Phone Number',
-    value: '',
+    value: '0327065777',
     icon: './assets/images/call.svg',
   },
   {
     id: 'email',
     name: 'Email',
-    value: '',
+    value: 'ngoxuanyhn@gmail.com',
     icon: './assets/images/email.svg',
   },
   {
