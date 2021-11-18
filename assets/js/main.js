@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     this.x = x;
     this.y = y;
     this.radius = Math.floor(Math.random() * 2) + 1;
-    this.color = `crimson`;
+    this.color = `dodgerblue`;
   }
   // Ve
   Star.prototype.draw = function () {
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let arrayStar;
   function init() {
     arrayStar = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 60; i++) {
       arrayStar.push(new Star(createX(), createY()));
     }
   }
