@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let arrayStar;
   function init() {
     arrayStar = [];
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 100; i++) {
       arrayStar.push(new Star(createX(), createY()));
     }
   }
